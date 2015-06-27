@@ -1,0 +1,50 @@
+.date, .add {
+	margin: 5px 0;
+}
+tfoot tr td {
+	font-weight: bold;
+}
+tbody tr:hover {
+	background: darkgrey;
+	cursor: default;
+}
+section.edit {
+	width: 500px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	position: absolute;
+
+	.close {
+		float: right;
+	}
+}
+td.passphrase {
+	cursor: pointer;
+
+	span.password-actual {
+		display: none;
+	}
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	margin: 0 !important;
+}
+
+td.public_key, td.private_key {
+	overflow: hidden;
+}
+
+div.content {
+	margin-left: 0;
+	margin-right: 0;
+}
+section.add {
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+}
